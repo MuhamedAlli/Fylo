@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer {
+  .element-center {
+    @apply flex flex-col justify-center items-center text-center mx-auto;
+  }
+  .nav-links {
+    @apply opacity-[0.85] hover:opacity-[1] transition-opacity duration-200;
+  }
+  .btn {
+    @apply bg-cyan-500 hover:bg-cyan-400 opacity-[0.9] transition-all duration-300 font-bold;
+  }
+}
+h1{
+  font-size:34px;
+  font-weight:700;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1b212f;
+}
+h2 {
+  font-size: 24px;
+  padding :0 30px ;
+}
